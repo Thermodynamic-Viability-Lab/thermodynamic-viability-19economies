@@ -1,0 +1,17 @@
+{
+  "module": "Mod4_EnergyCannibalization_and_CriticalMinerals",
+  "runtime_sec": 5.44,
+  "grid_shape": [
+    2,
+    24,
+    20,
+    16
+  ],
+  "seeds_per_point": 1024,
+  "total_trajectories": 15728640,
+  "max_closure_err": 4.267135726256833e-15,
+  "max_triple_boundary_safe_just_growth_pct": 0.0,
+  "max_triple_boundary_safe_just_postgrowth_pct": 10.55,
+  "peak_build_cannibalization_pct_growth": 6.24,
+  "peak_build_cannibalization_pct_postgrowth": 8.38
+}

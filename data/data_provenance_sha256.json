@@ -1,0 +1,52 @@
+{
+  "files": {
+    "Clean_18OECD_Panel_1920_2024.csv": {
+      "bytes": 522933,
+      "sha256": "44f798170b5a868d160b31a8eeff8a29a2207a237934b94578b8e1a2f2587a65"
+    },
+    "Clean_China_OOS_Panel_1950_2024.csv": {
+      "bytes": 13504,
+      "sha256": "03e014bea2f4ec9e0b53d4baf2c6110661194e2b7346edbddc9406025ee8b421"
+    },
+    "UN_WPP_19Country_AgeDep_1920_2050.csv": {
+      "bytes": 76798,
+      "sha256": "0ad2de38f63ec378cdf4611ebd1fbed72481cf9c05145354e58fb467395ac716"
+    },
+    "fred_chn_debt_raw.csv": {
+      "bytes": 571,
+      "sha256": "7d843cacadec45d3bc444abd76df3bc922af3bfcfd5cb13fbd669e4727bcb096"
+    },
+    "imf_weo_chn_debt_raw.json": {
+      "bytes": 9285,
+      "sha256": "839fa6357c746c41b1ec6584fc73f507018358d4719f1478561192da3b0f9d44"
+    },
+    "imf_weo_chn_exp_raw.json": {
+      "bytes": 9306,
+      "sha256": "d253f44de1ff78aa8b98101387d42038e2c68dd64753cc3266fc87e3394e46e2"
+    },
+    "imf_weo_chn_rgdp_raw.json": {
+      "bytes": 9275,
+      "sha256": "5b1d8511994255a149b7986be2624a570991d378508709b983b8b3542911ee50"
+    }
+  },
+  "oecd18_2024_summary": {
+    "total_co2_gt": 8.9002,
+    "mean_eroi_1920": 63.698,
+    "mean_eroi_2024": 14.707,
+    "mean_age_dep_2024": 0.3284,
+    "mean_age_dep_2050_un": 0.4941
+  },
+  "china_1950_2050_summary": {
+    "eroi_1950": 73.049,
+    "eroi_2024": 21.511,
+    "eta_1950": 0.0992,
+    "eta_2024": 0.252,
+    "useful_eroi_2024": 5.421,
+    "impdep_2024": 0.1704,
+    "co2_2024_gt": 12.4011,
+    "obs_g_2024_pct": 32.95,
+    "obs_imf_debt_2024_pct": 88.33,
+    "age_dep_2024": 0.2115,
+    "age_dep_2050_un": 0.5221
+  }
+}

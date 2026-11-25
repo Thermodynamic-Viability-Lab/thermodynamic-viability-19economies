@@ -1,0 +1,172 @@
+{
+  "module": "Mod6_China_ZeroLeakage_OOS_5Way",
+  "runtime_sec": 6.31,
+  "n_oecd_posterior_particles": 10000,
+  "seeds_per_particle": 32,
+  "max_closure_err": 4.557232797918727e-15,
+  "blind_historical_fit": {
+    "valid_g_years": "1982-2024",
+    "obs_g_2024_pct": 32.95,
+    "blind_sim_g_2024_med_pct": 39.65,
+    "blind_g_mae_pp": 7.73,
+    "obs_debt_2024_pct": 88.33,
+    "blind_sim_debt_2024_med_pct": 84.16,
+    "blind_debt_corr": 0.9566
+  },
+  "controlled_5way_factorial": {
+    "CHN_A_Austerity_SlowElec": {
+      "viability_2050_pct": 0.0,
+      "legit_collapse_pct": 15.43,
+      "fin_unemp_collapse_pct": 84.57,
+      "g_2050_med_pct": 27.0,
+      "g_2050_ci90_pct": [
+        27.0,
+        27.0
+      ],
+      "co2_cum_2025_2050_med_gt": 157.96,
+      "co2_cum_ci90_gt": [
+        150.44,
+        175.23
+      ],
+      "within_140gt_chn_budget": false,
+      "mineral_ratio_med": 0.418,
+      "mineral_ratio_ci90": [
+        0.396,
+        0.47
+      ],
+      "debt_2050_med": 8.614,
+      "fx_2050_med": -0.0024
+    },
+    "CHN_B_FastElec_Under_Austerity": {
+      "viability_2050_pct": 0.0,
+      "legit_collapse_pct": 16.92,
+      "fin_unemp_collapse_pct": 83.08,
+      "g_2050_med_pct": 27.0,
+      "g_2050_ci90_pct": [
+        27.0,
+        27.0
+      ],
+      "co2_cum_2025_2050_med_gt": 88.23,
+      "co2_cum_ci90_gt": [
+        85.88,
+        92.62
+      ],
+      "within_140gt_chn_budget": true,
+      "mineral_ratio_med": 0.72,
+      "mineral_ratio_ci90": [
+        0.696,
+        0.767
+      ],
+      "debt_2050_med": 9.362,
+      "fx_2050_med": -0.0006
+    },
+    "CHN_C_Sovereign_FossilInertia": {
+      "viability_2050_pct": 8.19,
+      "legit_collapse_pct": 12.57,
+      "fin_unemp_collapse_pct": 79.24,
+      "g_2050_med_pct": 52.7,
+      "g_2050_ci90_pct": [
+        52.7,
+        52.7
+      ],
+      "co2_cum_2025_2050_med_gt": 335.22,
+      "co2_cum_ci90_gt": [
+        323.04,
+        347.37
+      ],
+      "within_140gt_chn_budget": false,
+      "mineral_ratio_med": 0.745,
+      "mineral_ratio_ci90": [
+        0.715,
+        0.776
+      ],
+      "debt_2050_med": 1.894,
+      "fx_2050_med": -0.0024
+    },
+    "CHN_D_Current_Elec_Infra_Coord": {
+      "viability_2050_pct": 97.71,
+      "legit_collapse_pct": 0.0,
+      "fin_unemp_collapse_pct": 2.29,
+      "g_2050_med_pct": 51.87,
+      "g_2050_ci90_pct": [
+        49.43,
+        52.7
+      ],
+      "co2_cum_2025_2050_med_gt": 145.51,
+      "co2_cum_ci90_gt": [
+        141.08,
+        147.99
+      ],
+      "within_140gt_chn_budget": false,
+      "mineral_ratio_med": 1.17,
+      "mineral_ratio_ci90": [
+        1.128,
+        1.192
+      ],
+      "debt_2050_med": 1.111,
+      "fx_2050_med": -0.0008
+    },
+    "CHN_E_Elec_Plus_EcoSocial_Rebalance": {
+      "viability_2050_pct": 96.85,
+      "legit_collapse_pct": 0.0,
+      "fin_unemp_collapse_pct": 3.15,
+      "g_2050_med_pct": 53.59,
+      "g_2050_ci90_pct": [
+        50.63,
+        57.34
+      ],
+      "co2_cum_2025_2050_med_gt": 108.37,
+      "co2_cum_ci90_gt": [
+        105.43,
+        110.1
+      ],
+      "within_140gt_chn_budget": true,
+      "mineral_ratio_med": 0.913,
+      "mineral_ratio_ci90": [
+        0.881,
+        0.931
+      ],
+      "debt_2050_med": 1.534,
+      "fx_2050_med": -0.0007
+    }
+  },
+  "wright_learning_sensitivity_CHN_D": {
+    "lam_0.72": {
+      "viability_pct": 99.99,
+      "co2_med_gt": 145.2,
+      "mineral_ratio_med": 1.166
+    },
+    "lam_0.85": {
+      "viability_pct": 99.95,
+      "co2_med_gt": 143.95,
+      "mineral_ratio_med": 1.363
+    },
+    "lam_0.95": {
+      "viability_pct": 99.61,
+      "co2_med_gt": 142.72,
+      "mineral_ratio_med": 1.508
+    }
+  },
+  "structural_invariance": {
+    "high_trade_expose_ta0.50_psi0.048": {
+      "CHN_A_Austerity_SlowElec": 0.0,
+      "CHN_D_Current_Elec_Infra_Coord": 99.97,
+      "CHN_E_Elec_Plus_EcoSocial_Rebalance": 95.94
+    },
+    "baseline_ta0.75_psi0.032": {
+      "CHN_A_Austerity_SlowElec": 0.0,
+      "CHN_D_Current_Elec_Infra_Coord": 99.97,
+      "CHN_E_Elec_Plus_EcoSocial_Rebalance": 96.15
+    },
+    "low_trade_expose_ta0.90_psi0.015": {
+      "CHN_A_Austerity_SlowElec": 0.0,
+      "CHN_D_Current_Elec_Infra_Coord": 99.97,
+      "CHN_E_Elec_Plus_EcoSocial_Rebalance": 96.34
+    }
+  },
+  "china_2d_policy_frontier": {
+    "dim": 16,
+    "max_viab_pct": 100.0,
+    "min_mineral_ratio": 0.975
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "module": "Mod5A_Calibrated_FiscalCorridor_cb0560_and_5080_Mod5B",
+  "runtime_sec": 19.47,
+  "hardware": {
+    "gpu_name": "NVIDIA GeForce RTX 4080 SUPER",
+    "vram_gb": 15.99,
+    "compute_capability": "sm_89",
+    "multiprocessor_count": 80,
+    "driver_cuda_version": "13.4",
+    "nvrtc_version": "12.9",
+    "nvrtc_dll_path": "nvrtc64_120_0.dll"
+  },
+  "calibration_note": "Identical kernel_mod5_phase_ews physics and seed=5050 evaluated at the converged RTX 5080 Tier 2 18-round posterior median (prm_post_med), relaxing only the synthetic slice budget cap from cb=0.435 (which fell below the converged 48-52% OECD baseline) to cb=0.560 (cap 0.52).",
+  "grid_shape": [
+    512,
+    512
+  ],
+  "seeds_per_point": 256,
+  "total_trajectories": 134217728,
+  "max_closure_err": 5.597786064604175e-15,
+  "input_posterior_sha256": "3e8ee811be5096d722d297b5f7fd8fba1501c9fd3ea8512463152d547bea41dc",
+  "output_npz_sha256": "2924e71e0d7dc92059e2fc2a80e3de854e53f3116657752b3d4ccf285c28fd45",
+  "phase_and_ews_slices": {
+    "Importer_Net": {
+      "safe_zone_pixels": 96385,
+      "tipping_zone_pixels": 30480,
+      "min_viable_eroi_at_gorg_5pct": 10.14,
+      "min_viable_eroi_at_gorg_10pct": 12.88,
+      "min_viable_eroi_at_gorg_15pct": 32.0,
+      "ews_ar1_diff_debt_safe": 0.0084,
+      "ews_ar1_diff_debt_tipping": 0.1448,
+      "ews_var_binfra_safe": 3.7e-05,
+      "ews_var_binfra_tipping": 0.000247,
+      "ews_ar1_binfra_safe": 0.5634,
+      "ews_ar1_binfra_tipping": 0.8236
+    },
+    "Exporter_Net": {
+      "safe_zone_pixels": 100386,
+      "tipping_zone_pixels": 31093,
+      "min_viable_eroi_at_gorg_5pct": 9.7,
+      "min_viable_eroi_at_gorg_10pct": 12.22,
+      "min_viable_eroi_at_gorg_15pct": 32.0,
+      "ews_ar1_diff_debt_safe": 0.0011,
+      "ews_ar1_diff_debt_tipping": 0.1354,
+      "ews_var_binfra_safe": 3.4e-05,
+      "ews_var_binfra_tipping": 0.000241,
+      "ews_ar1_binfra_safe": 0.5554,
+      "ews_ar1_binfra_tipping": 0.8199
+    }
+  },
+  "hysteresis_loop_verbatim_from_5080": {
+    "1_Adaptive_Growth": {
+      "surv_t39_trough_pct": 99.98,
+      "surv_t79_recovery_pct": 99.98,
+      "ostate_t0": 0.596,
+      "ostate_t79_recovered": 0.562,
+      "b_infra_t39_trough": 0.0255
+    },
+    "2_Austerity_Coercion": {
+      "surv_t39_trough_pct": 0.0,
+      "surv_t79_recovery_pct": 0.0,
+      "ostate_t0": 0.654,
+      "ostate_t79_recovered": 0.43,
+      "b_infra_t39_trough": 0.2328
+    },
+    "3_Neoliberal_Cap": {
+      "surv_t39_trough_pct": 0.0,
+      "surv_t79_recovery_pct": 0.0,
+      "ostate_t0": 0.589,
+      "ostate_t79_recovered": 0.202,
+      "b_infra_t39_trough": 0.2106
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "module": "Mod5_PhaseCliff_EWS_Hysteresis",
+  "runtime_sec": 8.15,
+  "grid_shape": [
+    512,
+    512
+  ],
+  "seeds_per_point": 128,
+  "total_trajectories": 67158016,
+  "max_closure_err": 6.88191362354875e-15,
+  "phase_and_ews_slices": {
+    "Importer_Net": {
+      "min_viable_eroi_at_gorg_5pct": 32.0,
+      "min_viable_eroi_at_gorg_15pct": 32.0,
+      "ews_ar1_diff_debt_safe": 0.0,
+      "ews_ar1_diff_debt_tipping": 0.0,
+      "ews_var_binfra_safe": 0.0,
+      "ews_var_binfra_tipping": 0.0,
+      "ews_ar1_binfra_safe": 0.0,
+      "ews_ar1_binfra_tipping": 0.0
+    },
+    "Exporter_Net": {
+      "min_viable_eroi_at_gorg_5pct": 32.0,
+      "min_viable_eroi_at_gorg_15pct": 32.0,
+      "ews_ar1_diff_debt_safe": 0.0,
+      "ews_ar1_diff_debt_tipping": 0.0,
+      "ews_var_binfra_safe": 0.0,
+      "ews_var_binfra_tipping": 0.0,
+      "ews_ar1_binfra_safe": 0.0,
+      "ews_ar1_binfra_tipping": 0.0
+    }
+  },
+  "hysteresis_loop": {
+    "1_Adaptive_Growth": {
+      "surv_t39_trough_pct": 99.98,
+      "surv_t79_recovery_pct": 99.98,
+      "ostate_t0": 0.596,
+      "ostate_t79_recovered": 0.564,
+      "b_infra_t39_trough": 0.0255
+    },
+    "2_Austerity_Coercion": {
+      "surv_t39_trough_pct": 0.0,
+      "surv_t79_recovery_pct": 0.0,
+      "ostate_t0": 0.655,
+      "ostate_t79_recovered": 0.436,
+      "b_infra_t39_trough": 0.2297
+    },
+    "3_Neoliberal_Cap": {
+      "surv_t39_trough_pct": 0.0,
+      "surv_t79_recovery_pct": 0.0,
+      "ostate_t0": 0.589,
+      "ostate_t79_recovered": 0.208,
+      "b_infra_t39_trough": 0.2075
+    }
+  }
+}

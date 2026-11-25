@@ -1,0 +1,1062 @@
+{
+  "module": "Mod1_Open18_RoW_and_Falsification",
+  "runtime_sec": 28.86,
+  "n_worlds_per_regime": 65536,
+  "max_closure_err": 5.140091504513291e-14,
+  "historical_regimes": {
+    "1_Adaptive_Growth": {
+      "oecd_viability_pct": 93.79,
+      "importer_viability_pct": 93.09,
+      "exporter_viability_pct": 95.19,
+      "oecd_g_2024_pct": 50.17,
+      "importer_g_2024_pct": 52.35,
+      "exporter_g_2024_pct": 45.82,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 98.52,
+          "g_2024_pct": 42.69,
+          "debt_2024_ratio": 1.108,
+          "fx_2024_ratio": 0.0858
+        },
+        "BEL": {
+          "viability_pct": 86.95,
+          "g_2024_pct": 54.53,
+          "debt_2024_ratio": 1.176,
+          "fx_2024_ratio": -0.0339
+        },
+        "CAN": {
+          "viability_pct": 98.65,
+          "g_2024_pct": 42.59,
+          "debt_2024_ratio": 1.174,
+          "fx_2024_ratio": 0.0161
+        },
+        "CHE": {
+          "viability_pct": 90.0,
+          "g_2024_pct": 49.01,
+          "debt_2024_ratio": 1.218,
+          "fx_2024_ratio": -0.0125
+        },
+        "DEU": {
+          "viability_pct": 98.79,
+          "g_2024_pct": 48.69,
+          "debt_2024_ratio": 1.102,
+          "fx_2024_ratio": -0.0258
+        },
+        "DNK": {
+          "viability_pct": 94.9,
+          "g_2024_pct": 54.51,
+          "debt_2024_ratio": 1.159,
+          "fx_2024_ratio": -0.0096
+        },
+        "ESP": {
+          "viability_pct": 92.43,
+          "g_2024_pct": 52.85,
+          "debt_2024_ratio": 1.13,
+          "fx_2024_ratio": -0.0294
+        },
+        "FIN": {
+          "viability_pct": 92.88,
+          "g_2024_pct": 54.9,
+          "debt_2024_ratio": 1.138,
+          "fx_2024_ratio": -0.0148
+        },
+        "FRA": {
+          "viability_pct": 91.09,
+          "g_2024_pct": 53.12,
+          "debt_2024_ratio": 1.186,
+          "fx_2024_ratio": -0.0159
+        },
+        "GBR": {
+          "viability_pct": 95.58,
+          "g_2024_pct": 48.95,
+          "debt_2024_ratio": 1.134,
+          "fx_2024_ratio": -0.0153
+        },
+        "IRL": {
+          "viability_pct": 95.02,
+          "g_2024_pct": 46.71,
+          "debt_2024_ratio": 1.058,
+          "fx_2024_ratio": -0.0335
+        },
+        "ITA": {
+          "viability_pct": 95.89,
+          "g_2024_pct": 52.65,
+          "debt_2024_ratio": 1.15,
+          "fx_2024_ratio": -0.0376
+        },
+        "JPN": {
+          "viability_pct": 98.46,
+          "g_2024_pct": 54.61,
+          "debt_2024_ratio": 1.145,
+          "fx_2024_ratio": -0.0382
+        },
+        "NLD": {
+          "viability_pct": 84.22,
+          "g_2024_pct": 54.5,
+          "debt_2024_ratio": 1.188,
+          "fx_2024_ratio": -0.0355
+        },
+        "NOR": {
+          "viability_pct": 95.03,
+          "g_2024_pct": 45.37,
+          "debt_2024_ratio": 1.296,
+          "fx_2024_ratio": 0.0214
+        },
+        "PRT": {
+          "viability_pct": 89.47,
+          "g_2024_pct": 56.19,
+          "debt_2024_ratio": 1.126,
+          "fx_2024_ratio": -0.0346
+        },
+        "SWE": {
+          "viability_pct": 91.22,
+          "g_2024_pct": 50.42,
+          "debt_2024_ratio": 1.248,
+          "fx_2024_ratio": -0.004
+        },
+        "USA": {
+          "viability_pct": 99.16,
+          "g_2024_pct": 40.82,
+          "debt_2024_ratio": 1.102,
+          "fx_2024_ratio": -0.0005
+        }
+      }
+    },
+    "2_Austerity_Coercion": {
+      "oecd_viability_pct": 0.0,
+      "importer_viability_pct": 0.0,
+      "exporter_viability_pct": 0.0,
+      "oecd_g_2024_pct": 36.5,
+      "importer_g_2024_pct": 36.5,
+      "exporter_g_2024_pct": 36.5,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 1.96,
+          "fx_2024_ratio": 0.1082
+        },
+        "BEL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.546,
+          "fx_2024_ratio": -0.053
+        },
+        "CAN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 1.835,
+          "fx_2024_ratio": 0.0193
+        },
+        "CHE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.013,
+          "fx_2024_ratio": -0.0177
+        },
+        "DEU": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.259,
+          "fx_2024_ratio": -0.0368
+        },
+        "DNK": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.53,
+          "fx_2024_ratio": -0.0112
+        },
+        "ESP": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.635,
+          "fx_2024_ratio": -0.0465
+        },
+        "FIN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.722,
+          "fx_2024_ratio": -0.0272
+        },
+        "FRA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.565,
+          "fx_2024_ratio": -0.0236
+        },
+        "GBR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.399,
+          "fx_2024_ratio": -0.0218
+        },
+        "IRL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.09,
+          "fx_2024_ratio": -0.0521
+        },
+        "ITA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.425,
+          "fx_2024_ratio": -0.0568
+        },
+        "JPN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.29,
+          "fx_2024_ratio": -0.0578
+        },
+        "NLD": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.164,
+          "fx_2024_ratio": -0.0488
+        },
+        "NOR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 1.996,
+          "fx_2024_ratio": 0.0264
+        },
+        "PRT": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 3.068,
+          "fx_2024_ratio": -0.0614
+        },
+        "SWE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 2.22,
+          "fx_2024_ratio": -0.0062
+        },
+        "USA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 36.5,
+          "debt_2024_ratio": 1.884,
+          "fx_2024_ratio": -0.0019
+        }
+      }
+    },
+    "3_Neoliberal_Cap": {
+      "oecd_viability_pct": 0.02,
+      "importer_viability_pct": 0.0,
+      "exporter_viability_pct": 0.07,
+      "oecd_g_2024_pct": 28.5,
+      "importer_g_2024_pct": 28.5,
+      "exporter_g_2024_pct": 28.5,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.18,
+          "fx_2024_ratio": 0.097
+        },
+        "BEL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.629,
+          "fx_2024_ratio": -0.0424
+        },
+        "CAN": {
+          "viability_pct": 0.41,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.168,
+          "fx_2024_ratio": 0.0174
+        },
+        "CHE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.21,
+          "fx_2024_ratio": -0.0156
+        },
+        "DEU": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.21,
+          "fx_2024_ratio": -0.032
+        },
+        "DNK": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.709,
+          "fx_2024_ratio": -0.0101
+        },
+        "ESP": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.642,
+          "fx_2024_ratio": -0.038
+        },
+        "FIN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.636,
+          "fx_2024_ratio": -0.021
+        },
+        "FRA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.403,
+          "fx_2024_ratio": -0.0203
+        },
+        "GBR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.41,
+          "fx_2024_ratio": -0.0191
+        },
+        "IRL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.434,
+          "fx_2024_ratio": -0.0422
+        },
+        "ITA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.428,
+          "fx_2024_ratio": -0.0488
+        },
+        "JPN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.244,
+          "fx_2024_ratio": -0.0504
+        },
+        "NLD": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.457,
+          "fx_2024_ratio": -0.0424
+        },
+        "NOR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.239,
+          "fx_2024_ratio": 0.0236
+        },
+        "PRT": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 2.062,
+          "fx_2024_ratio": -0.0451
+        },
+        "SWE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.2,
+          "fx_2024_ratio": -0.0051
+        },
+        "USA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 28.5,
+          "debt_2024_ratio": 1.157,
+          "fx_2024_ratio": -0.0011
+        }
+      }
+    },
+    "4_Gold_Standard": {
+      "oecd_viability_pct": 0.0,
+      "importer_viability_pct": 0.0,
+      "exporter_viability_pct": 0.0,
+      "oecd_g_2024_pct": 16.0,
+      "importer_g_2024_pct": 16.0,
+      "exporter_g_2024_pct": 16.0,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 6.095,
+          "fx_2024_ratio": 0.1186
+        },
+        "BEL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 28.573,
+          "fx_2024_ratio": -0.0495
+        },
+        "CAN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 7.77,
+          "fx_2024_ratio": 0.0204
+        },
+        "CHE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 24.996,
+          "fx_2024_ratio": -0.0173
+        },
+        "DEU": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 10.631,
+          "fx_2024_ratio": -0.038
+        },
+        "DNK": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 15.578,
+          "fx_2024_ratio": -0.011
+        },
+        "ESP": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 26.336,
+          "fx_2024_ratio": -0.0436
+        },
+        "FIN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 21.363,
+          "fx_2024_ratio": -0.0251
+        },
+        "FRA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 37.527,
+          "fx_2024_ratio": -0.0222
+        },
+        "GBR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 14.236,
+          "fx_2024_ratio": -0.0213
+        },
+        "IRL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 13.16,
+          "fx_2024_ratio": -0.0495
+        },
+        "ITA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 18.084,
+          "fx_2024_ratio": -0.0556
+        },
+        "JPN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 14.835,
+          "fx_2024_ratio": -0.0581
+        },
+        "NLD": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 12.08,
+          "fx_2024_ratio": -0.0464
+        },
+        "NOR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 10.375,
+          "fx_2024_ratio": 0.0269
+        },
+        "PRT": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 35.982,
+          "fx_2024_ratio": -0.0536
+        },
+        "SWE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 24.589,
+          "fx_2024_ratio": -0.0061
+        },
+        "USA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 16.0,
+          "debt_2024_ratio": 7.483,
+          "fx_2024_ratio": -0.0029
+        }
+      }
+    },
+    "5A_PG_Unreformed": {
+      "oecd_viability_pct": 0.0,
+      "importer_viability_pct": 0.0,
+      "exporter_viability_pct": 0.0,
+      "oecd_g_2024_pct": 59.46,
+      "importer_g_2024_pct": 60.59,
+      "exporter_g_2024_pct": 57.21,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 57.14,
+          "debt_2024_ratio": 53.766,
+          "fx_2024_ratio": 0.0517
+        },
+        "BEL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 61.06,
+          "debt_2024_ratio": 107.08,
+          "fx_2024_ratio": -0.0197
+        },
+        "CAN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 53.43,
+          "debt_2024_ratio": 60.486,
+          "fx_2024_ratio": 0.01
+        },
+        "CHE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 59.59,
+          "debt_2024_ratio": 84.129,
+          "fx_2024_ratio": -0.0078
+        },
+        "DEU": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 57.81,
+          "debt_2024_ratio": 39.618,
+          "fx_2024_ratio": -0.0154
+        },
+        "DNK": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 64.25,
+          "debt_2024_ratio": 40.673,
+          "fx_2024_ratio": -0.0072
+        },
+        "ESP": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 62.27,
+          "debt_2024_ratio": 70.225,
+          "fx_2024_ratio": -0.0179
+        },
+        "FIN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 63.69,
+          "debt_2024_ratio": 75.69,
+          "fx_2024_ratio": -0.0081
+        },
+        "FRA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 58.95,
+          "debt_2024_ratio": 112.684,
+          "fx_2024_ratio": -0.0103
+        },
+        "GBR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 58.57,
+          "debt_2024_ratio": 97.719,
+          "fx_2024_ratio": -0.0094
+        },
+        "IRL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 62.0,
+          "debt_2024_ratio": 38.934,
+          "fx_2024_ratio": -0.0195
+        },
+        "ITA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 59.31,
+          "debt_2024_ratio": 90.066,
+          "fx_2024_ratio": -0.0243
+        },
+        "JPN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 57.27,
+          "debt_2024_ratio": 43.361,
+          "fx_2024_ratio": -0.0237
+        },
+        "NLD": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 64.72,
+          "debt_2024_ratio": 60.811,
+          "fx_2024_ratio": -0.0246
+        },
+        "NOR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 54.25,
+          "debt_2024_ratio": 58.594,
+          "fx_2024_ratio": 0.0121
+        },
+        "PRT": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 64.48,
+          "debt_2024_ratio": 83.167,
+          "fx_2024_ratio": -0.0221
+        },
+        "SWE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 56.41,
+          "debt_2024_ratio": 89.327,
+          "fx_2024_ratio": -0.002
+        },
+        "USA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 55.18,
+          "debt_2024_ratio": 39.96,
+          "fx_2024_ratio": 0.0008
+        }
+      }
+    },
+    "5M_PG_Monetary_Only": {
+      "oecd_viability_pct": 66.84,
+      "importer_viability_pct": 64.49,
+      "exporter_viability_pct": 71.53,
+      "oecd_g_2024_pct": 51.88,
+      "importer_g_2024_pct": 54.02,
+      "exporter_g_2024_pct": 47.58,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 77.19,
+          "g_2024_pct": 44.53,
+          "debt_2024_ratio": 1.214,
+          "fx_2024_ratio": 0.0962
+        },
+        "BEL": {
+          "viability_pct": 53.64,
+          "g_2024_pct": 56.23,
+          "debt_2024_ratio": 1.332,
+          "fx_2024_ratio": -0.0385
+        },
+        "CAN": {
+          "viability_pct": 79.46,
+          "g_2024_pct": 44.32,
+          "debt_2024_ratio": 1.241,
+          "fx_2024_ratio": 0.0181
+        },
+        "CHE": {
+          "viability_pct": 61.67,
+          "g_2024_pct": 50.59,
+          "debt_2024_ratio": 1.252,
+          "fx_2024_ratio": -0.0143
+        },
+        "DEU": {
+          "viability_pct": 76.94,
+          "g_2024_pct": 50.47,
+          "debt_2024_ratio": 1.199,
+          "fx_2024_ratio": -0.0293
+        },
+        "DNK": {
+          "viability_pct": 64.51,
+          "g_2024_pct": 56.29,
+          "debt_2024_ratio": 1.234,
+          "fx_2024_ratio": -0.0101
+        },
+        "ESP": {
+          "viability_pct": 60.41,
+          "g_2024_pct": 54.53,
+          "debt_2024_ratio": 1.243,
+          "fx_2024_ratio": -0.0337
+        },
+        "FIN": {
+          "viability_pct": 62.63,
+          "g_2024_pct": 56.57,
+          "debt_2024_ratio": 1.223,
+          "fx_2024_ratio": -0.0174
+        },
+        "FRA": {
+          "viability_pct": 59.38,
+          "g_2024_pct": 54.83,
+          "debt_2024_ratio": 1.304,
+          "fx_2024_ratio": -0.0181
+        },
+        "GBR": {
+          "viability_pct": 68.06,
+          "g_2024_pct": 50.73,
+          "debt_2024_ratio": 1.272,
+          "fx_2024_ratio": -0.0172
+        },
+        "IRL": {
+          "viability_pct": 68.07,
+          "g_2024_pct": 48.41,
+          "debt_2024_ratio": 1.122,
+          "fx_2024_ratio": -0.0388
+        },
+        "ITA": {
+          "viability_pct": 66.96,
+          "g_2024_pct": 54.26,
+          "debt_2024_ratio": 1.256,
+          "fx_2024_ratio": -0.0424
+        },
+        "JPN": {
+          "viability_pct": 78.46,
+          "g_2024_pct": 56.22,
+          "debt_2024_ratio": 1.207,
+          "fx_2024_ratio": -0.0434
+        },
+        "NLD": {
+          "viability_pct": 52.83,
+          "g_2024_pct": 56.33,
+          "debt_2024_ratio": 1.301,
+          "fx_2024_ratio": -0.0379
+        },
+        "NOR": {
+          "viability_pct": 70.46,
+          "g_2024_pct": 47.02,
+          "debt_2024_ratio": 1.303,
+          "fx_2024_ratio": 0.0253
+        },
+        "PRT": {
+          "viability_pct": 58.34,
+          "g_2024_pct": 57.87,
+          "debt_2024_ratio": 1.24,
+          "fx_2024_ratio": -0.0392
+        },
+        "SWE": {
+          "viability_pct": 62.84,
+          "g_2024_pct": 52.02,
+          "debt_2024_ratio": 1.308,
+          "fx_2024_ratio": -0.0048
+        },
+        "USA": {
+          "viability_pct": 81.2,
+          "g_2024_pct": 42.55,
+          "debt_2024_ratio": 1.161,
+          "fx_2024_ratio": -0.0012
+        }
+      }
+    },
+    "5W_PG_WorkShare_Only": {
+      "oecd_viability_pct": 0.0,
+      "importer_viability_pct": 0.0,
+      "exporter_viability_pct": 0.0,
+      "oecd_g_2024_pct": 59.46,
+      "importer_g_2024_pct": 60.59,
+      "exporter_g_2024_pct": 57.21,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 57.14,
+          "debt_2024_ratio": 46.585,
+          "fx_2024_ratio": 0.0517
+        },
+        "BEL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 61.05,
+          "debt_2024_ratio": 99.835,
+          "fx_2024_ratio": -0.0197
+        },
+        "CAN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 53.43,
+          "debt_2024_ratio": 54.481,
+          "fx_2024_ratio": 0.01
+        },
+        "CHE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 59.59,
+          "debt_2024_ratio": 79.382,
+          "fx_2024_ratio": -0.0078
+        },
+        "DEU": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 57.81,
+          "debt_2024_ratio": 33.767,
+          "fx_2024_ratio": -0.0154
+        },
+        "DNK": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 64.25,
+          "debt_2024_ratio": 34.276,
+          "fx_2024_ratio": -0.0072
+        },
+        "ESP": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 62.27,
+          "debt_2024_ratio": 65.797,
+          "fx_2024_ratio": -0.0179
+        },
+        "FIN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 63.69,
+          "debt_2024_ratio": 69.005,
+          "fx_2024_ratio": -0.0081
+        },
+        "FRA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 58.95,
+          "debt_2024_ratio": 103.705,
+          "fx_2024_ratio": -0.0103
+        },
+        "GBR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 58.57,
+          "debt_2024_ratio": 86.976,
+          "fx_2024_ratio": -0.0094
+        },
+        "IRL": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 62.0,
+          "debt_2024_ratio": 32.305,
+          "fx_2024_ratio": -0.0195
+        },
+        "ITA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 59.31,
+          "debt_2024_ratio": 82.706,
+          "fx_2024_ratio": -0.0243
+        },
+        "JPN": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 57.27,
+          "debt_2024_ratio": 37.773,
+          "fx_2024_ratio": -0.0237
+        },
+        "NLD": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 64.71,
+          "debt_2024_ratio": 52.722,
+          "fx_2024_ratio": -0.0246
+        },
+        "NOR": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 54.25,
+          "debt_2024_ratio": 48.027,
+          "fx_2024_ratio": 0.0121
+        },
+        "PRT": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 64.48,
+          "debt_2024_ratio": 75.373,
+          "fx_2024_ratio": -0.0221
+        },
+        "SWE": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 56.41,
+          "debt_2024_ratio": 76.393,
+          "fx_2024_ratio": -0.002
+        },
+        "USA": {
+          "viability_pct": 0.0,
+          "g_2024_pct": 55.18,
+          "debt_2024_ratio": 33.771,
+          "fx_2024_ratio": 0.0008
+        }
+      }
+    },
+    "5B_PG_EcoSocial_Full": {
+      "oecd_viability_pct": 86.93,
+      "importer_viability_pct": 85.67,
+      "exporter_viability_pct": 89.46,
+      "oecd_g_2024_pct": 50.7,
+      "importer_g_2024_pct": 52.86,
+      "exporter_g_2024_pct": 46.38,
+      "per_country": {
+        "AUS": {
+          "viability_pct": 93.99,
+          "g_2024_pct": 43.28,
+          "debt_2024_ratio": 1.226,
+          "fx_2024_ratio": 0.0968
+        },
+        "BEL": {
+          "viability_pct": 76.97,
+          "g_2024_pct": 55.07,
+          "debt_2024_ratio": 1.335,
+          "fx_2024_ratio": -0.0389
+        },
+        "CAN": {
+          "viability_pct": 94.68,
+          "g_2024_pct": 43.13,
+          "debt_2024_ratio": 1.254,
+          "fx_2024_ratio": 0.0182
+        },
+        "CHE": {
+          "viability_pct": 82.36,
+          "g_2024_pct": 49.47,
+          "debt_2024_ratio": 1.27,
+          "fx_2024_ratio": -0.0144
+        },
+        "DEU": {
+          "viability_pct": 94.4,
+          "g_2024_pct": 49.25,
+          "debt_2024_ratio": 1.212,
+          "fx_2024_ratio": -0.0295
+        },
+        "DNK": {
+          "viability_pct": 88.73,
+          "g_2024_pct": 55.08,
+          "debt_2024_ratio": 1.234,
+          "fx_2024_ratio": -0.0101
+        },
+        "ESP": {
+          "viability_pct": 82.95,
+          "g_2024_pct": 53.35,
+          "debt_2024_ratio": 1.262,
+          "fx_2024_ratio": -0.0339
+        },
+        "FIN": {
+          "viability_pct": 83.89,
+          "g_2024_pct": 55.39,
+          "debt_2024_ratio": 1.237,
+          "fx_2024_ratio": -0.0176
+        },
+        "FRA": {
+          "viability_pct": 81.88,
+          "g_2024_pct": 53.66,
+          "debt_2024_ratio": 1.324,
+          "fx_2024_ratio": -0.0182
+        },
+        "GBR": {
+          "viability_pct": 88.9,
+          "g_2024_pct": 49.52,
+          "debt_2024_ratio": 1.289,
+          "fx_2024_ratio": -0.0173
+        },
+        "IRL": {
+          "viability_pct": 89.49,
+          "g_2024_pct": 47.22,
+          "debt_2024_ratio": 1.136,
+          "fx_2024_ratio": -0.0391
+        },
+        "ITA": {
+          "viability_pct": 88.98,
+          "g_2024_pct": 53.1,
+          "debt_2024_ratio": 1.273,
+          "fx_2024_ratio": -0.0427
+        },
+        "JPN": {
+          "viability_pct": 94.98,
+          "g_2024_pct": 55.06,
+          "debt_2024_ratio": 1.221,
+          "fx_2024_ratio": -0.0436
+        },
+        "NLD": {
+          "viability_pct": 73.97,
+          "g_2024_pct": 55.13,
+          "debt_2024_ratio": 1.295,
+          "fx_2024_ratio": -0.0386
+        },
+        "NOR": {
+          "viability_pct": 89.52,
+          "g_2024_pct": 45.88,
+          "debt_2024_ratio": 1.316,
+          "fx_2024_ratio": 0.0255
+        },
+        "PRT": {
+          "viability_pct": 79.98,
+          "g_2024_pct": 56.71,
+          "debt_2024_ratio": 1.248,
+          "fx_2024_ratio": -0.0395
+        },
+        "SWE": {
+          "viability_pct": 83.39,
+          "g_2024_pct": 50.89,
+          "debt_2024_ratio": 1.327,
+          "fx_2024_ratio": -0.0049
+        },
+        "USA": {
+          "viability_pct": 95.73,
+          "g_2024_pct": 41.35,
+          "debt_2024_ratio": 1.171,
+          "fx_2024_ratio": -0.0013
+        }
+      }
+    }
+  },
+  "forward_scenarios_2025_2050": {
+    "Scen1_Fossil_Decay": {
+      "oecd_viability_pct": 46.32,
+      "total_18oecd_co2_2025_2050_gt": 272.94,
+      "within_15c_85gt_budget": false,
+      "mean_mineral_ceiling_ratio": 0.357,
+      "g_2050_pct": 65.97
+    },
+    "Scen2_Green_Growth_Elec": {
+      "oecd_viability_pct": 78.12,
+      "total_18oecd_co2_2025_2050_gt": 149.84,
+      "within_15c_85gt_budget": false,
+      "mean_mineral_ceiling_ratio": 1.231,
+      "g_2050_pct": 59.26
+    },
+    "Scen3_Breakthrough_Growth": {
+      "oecd_viability_pct": 84.75,
+      "total_18oecd_co2_2025_2050_gt": 132.54,
+      "within_15c_85gt_budget": false,
+      "mean_mineral_ceiling_ratio": 1.151,
+      "g_2050_pct": 58.09
+    },
+    "Scen4a_PG_Unbuffered": {
+      "oecd_viability_pct": 41.74,
+      "total_18oecd_co2_2025_2050_gt": 62.36,
+      "within_15c_85gt_budget": true,
+      "mean_mineral_ceiling_ratio": 1.112,
+      "g_2050_pct": 60.08
+    },
+    "Scen4b_PG_Circular_Doughnut": {
+      "oecd_viability_pct": 77.03,
+      "total_18oecd_co2_2025_2050_gt": 70.78,
+      "within_15c_85gt_budget": true,
+      "mean_mineral_ceiling_ratio": 0.722,
+      "g_2050_pct": 58.56
+    }
+  },
+  "falsification_and_invariance": {
+    "placebo_tests": {
+      "baseline_MAE_full_pp": 5.54,
+      "baseline_MAE_post1970_pp": 5.91,
+      "eroi_frozen_MAE_full_pp": 6.31,
+      "eroi_frozen_MAE_post1970_pp": 7.4,
+      "eroi_and_age_frozen_MAE_full_pp": 9.18,
+      "eroi_and_age_frozen_R": 0.9211
+    },
+    "blind_no_age_controller": {
+      "viability_pct": 93.09,
+      "corr_vs_emp_g": 0.91,
+      "g_2024_pct": 50.46
+    },
+    "structural_invariance": {
+      "high_trade_expose_ta0.50_psi0.048": {
+        "1_Adaptive_Growth": {
+          "viability_pct": 93.01,
+          "imp_minus_exp_g_pp": 6.94
+        },
+        "3_Neoliberal_Cap": {
+          "viability_pct": 0.05,
+          "imp_minus_exp_g_pp": 0.0
+        },
+        "5B_PG_EcoSocial_Full": {
+          "viability_pct": 85.76,
+          "imp_minus_exp_g_pp": 6.89
+        }
+      },
+      "baseline_ta0.75_psi0.032": {
+        "1_Adaptive_Growth": {
+          "viability_pct": 93.58,
+          "imp_minus_exp_g_pp": 6.69
+        },
+        "3_Neoliberal_Cap": {
+          "viability_pct": 0.03,
+          "imp_minus_exp_g_pp": 0.0
+        },
+        "5B_PG_EcoSocial_Full": {
+          "viability_pct": 86.65,
+          "imp_minus_exp_g_pp": 6.64
+        }
+      },
+      "low_trade_expose_ta0.90_psi0.015": {
+        "1_Adaptive_Growth": {
+          "viability_pct": 94.11,
+          "imp_minus_exp_g_pp": 6.3
+        },
+        "3_Neoliberal_Cap": {
+          "viability_pct": 0.03,
+          "imp_minus_exp_g_pp": 0.0
+        },
+        "5B_PG_EcoSocial_Full": {
+          "viability_pct": 87.4,
+          "imp_minus_exp_g_pp": 6.24
+        }
+      },
+      "linear_climate_damage": {
+        "1_Adaptive_Growth": {
+          "viability_pct": 93.58,
+          "imp_minus_exp_g_pp": 6.69
+        },
+        "3_Neoliberal_Cap": {
+          "viability_pct": 0.03,
+          "imp_minus_exp_g_pp": 0.0
+        },
+        "5B_PG_EcoSocial_Full": {
+          "viability_pct": 86.65,
+          "imp_minus_exp_g_pp": 6.64
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "mod5_phase_ews_hyst_cb056.json": {
+      "bytes": 2627,
+      "sha256": "2aef00fa9660e5304822b080d5f5e51e403a5c50810bb733acf4114ab3725e36"
+    },
+    "mod5_phase_ews_hyst_cb056.npz": {
+      "bytes": 11728142,
+      "sha256": "2924e71e0d7dc92059e2fc2a80e3de854e53f3116657752b3d4ccf285c28fd45"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "gpu_name": "NVIDIA GeForce RTX 5080",
+  "vram_gb": 15.89,
+  "compute_capability": "sm_120",
+  "multiprocessor_count": 84,
+  "driver_cuda_version": "13.4",
+  "nvrtc_version": "12.9",
+  "nvrtc_dll_path": "nvrtc64_120_0.dll"
+}

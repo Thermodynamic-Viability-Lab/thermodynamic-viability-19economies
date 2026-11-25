@@ -1,0 +1,1709 @@
+{
+  "module": "Mod3_Sobol_22Param_GSA",
+  "runtime_sec": 358.66,
+  "n_base_saltelli": 65536,
+  "n_params": 22,
+  "n_crn_seeds": 32,
+  "total_trajectories": 150994944,
+  "max_closure_err": 7.727729393628335e-15,
+  "groups": {
+    "OECD_Mean": {
+      "years_alive": {
+        "var_y": 94.092606,
+        "S_i": {
+          "rho_c": 0.0268,
+          "c_max": 0.0408,
+          "gamma_C": 0.0539,
+          "gamma_E": 0.187,
+          "gamma_D": 0.0062,
+          "gamma_O": 0.0015,
+          "kappa_org": 0.0332,
+          "delta_ent": 0.0145,
+          "psi_trade": -0.0004,
+          "gamma_trade": -0.0,
+          "epbt_base": 0.165,
+          "lambda_learn": 0.116,
+          "eta_rec": 0.0002,
+          "u_crit": 0.0127,
+          "def_crit": 0.003,
+          "theta_rev": 0.0003,
+          "pi_crit": 0.0004,
+          "tau_max": 0.0561,
+          "k_m_infra": 0.0091,
+          "k_t_age": 0.0266,
+          "k_cb_strain": 0.0007,
+          "shock_scale": 0.0122
+        },
+        "S_Ti": {
+          "rho_c": 0.0726,
+          "c_max": 0.1011,
+          "gamma_C": 0.1305,
+          "gamma_E": 0.328,
+          "gamma_D": 0.0241,
+          "gamma_O": 0.0073,
+          "kappa_org": 0.0898,
+          "delta_ent": 0.0501,
+          "psi_trade": 0.0006,
+          "gamma_trade": 0.0004,
+          "epbt_base": 0.3094,
+          "lambda_learn": 0.2281,
+          "eta_rec": 0.0,
+          "u_crit": 0.0245,
+          "def_crit": 0.0109,
+          "theta_rev": 0.0008,
+          "pi_crit": 0.0002,
+          "tau_max": 0.131,
+          "k_m_infra": 0.0317,
+          "k_t_age": 0.1053,
+          "k_cb_strain": 0.0046,
+          "shock_scale": 0.0387
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0708,
+            0.0743
+          ],
+          "c_max": [
+            0.0989,
+            0.1034
+          ],
+          "gamma_C": [
+            0.1277,
+            0.1331
+          ],
+          "gamma_E": [
+            0.3226,
+            0.3333
+          ],
+          "gamma_D": [
+            0.0232,
+            0.025
+          ],
+          "gamma_O": [
+            0.007,
+            0.0075
+          ],
+          "kappa_org": [
+            0.0879,
+            0.0919
+          ],
+          "delta_ent": [
+            0.0488,
+            0.0516
+          ],
+          "psi_trade": [
+            0.0005,
+            0.0006
+          ],
+          "gamma_trade": [
+            0.0004,
+            0.0004
+          ],
+          "epbt_base": [
+            0.304,
+            0.3148
+          ],
+          "lambda_learn": [
+            0.2239,
+            0.2321
+          ],
+          "eta_rec": [
+            0.0,
+            0.0
+          ],
+          "u_crit": [
+            0.024,
+            0.025
+          ],
+          "def_crit": [
+            0.0107,
+            0.0111
+          ],
+          "theta_rev": [
+            0.0007,
+            0.001
+          ],
+          "pi_crit": [
+            0.0002,
+            0.0002
+          ],
+          "tau_max": [
+            0.1283,
+            0.1338
+          ],
+          "k_m_infra": [
+            0.0309,
+            0.0325
+          ],
+          "k_t_age": [
+            0.103,
+            0.1077
+          ],
+          "k_cb_strain": [
+            0.0045,
+            0.0048
+          ],
+          "shock_scale": [
+            0.0378,
+            0.0395
+          ]
+        }
+      },
+      "co2_cum_2050": {
+        "var_y": 335.217459,
+        "S_i": {
+          "rho_c": 0.0304,
+          "c_max": 0.0482,
+          "gamma_C": 0.0624,
+          "gamma_E": 0.1978,
+          "gamma_D": 0.0008,
+          "gamma_O": 0.0023,
+          "kappa_org": 0.0454,
+          "delta_ent": 0.0194,
+          "psi_trade": -0.0,
+          "gamma_trade": -0.0,
+          "epbt_base": 0.1732,
+          "lambda_learn": 0.1207,
+          "eta_rec": 0.0,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.0769,
+          "k_m_infra": 0.0062,
+          "k_t_age": 0.0545,
+          "k_cb_strain": 0.0005,
+          "shock_scale": -0.0
+        },
+        "S_Ti": {
+          "rho_c": 0.0631,
+          "c_max": 0.0901,
+          "gamma_C": 0.1149,
+          "gamma_E": 0.2993,
+          "gamma_D": 0.0043,
+          "gamma_O": 0.0054,
+          "kappa_org": 0.0818,
+          "delta_ent": 0.0421,
+          "psi_trade": 0.0001,
+          "gamma_trade": 0.0001,
+          "epbt_base": 0.2766,
+          "lambda_learn": 0.2005,
+          "eta_rec": 0.0,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.1282,
+          "k_m_infra": 0.019,
+          "k_t_age": 0.1019,
+          "k_cb_strain": 0.002,
+          "shock_scale": 0.0115
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0618,
+            0.0645
+          ],
+          "c_max": [
+            0.0884,
+            0.092
+          ],
+          "gamma_C": [
+            0.1127,
+            0.1173
+          ],
+          "gamma_E": [
+            0.2951,
+            0.3038
+          ],
+          "gamma_D": [
+            0.0041,
+            0.0046
+          ],
+          "gamma_O": [
+            0.0052,
+            0.0055
+          ],
+          "kappa_org": [
+            0.0802,
+            0.0834
+          ],
+          "delta_ent": [
+            0.0411,
+            0.0431
+          ],
+          "psi_trade": [
+            0.0001,
+            0.0001
+          ],
+          "gamma_trade": [
+            0.0001,
+            0.0001
+          ],
+          "epbt_base": [
+            0.2725,
+            0.2809
+          ],
+          "lambda_learn": [
+            0.1972,
+            0.2042
+          ],
+          "eta_rec": [
+            0.0,
+            0.0
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.126,
+            0.1305
+          ],
+          "k_m_infra": [
+            0.0185,
+            0.0195
+          ],
+          "k_t_age": [
+            0.1,
+            0.1039
+          ],
+          "k_cb_strain": [
+            0.0019,
+            0.0021
+          ],
+          "shock_scale": [
+            0.0111,
+            0.0119
+          ]
+        }
+      },
+      "g_tot_2050": {
+        "var_y": 0.002753,
+        "S_i": {
+          "rho_c": 0.0371,
+          "c_max": 0.0876,
+          "gamma_C": 0.2601,
+          "gamma_E": 0.2541,
+          "gamma_D": 0.0052,
+          "gamma_O": 0.0043,
+          "kappa_org": 0.0003,
+          "delta_ent": 0.0022,
+          "psi_trade": 0.0016,
+          "gamma_trade": 0.0017,
+          "epbt_base": 0.0852,
+          "lambda_learn": 0.063,
+          "eta_rec": 0.0015,
+          "u_crit": 0.0016,
+          "def_crit": 0.0016,
+          "theta_rev": 0.0016,
+          "pi_crit": 0.0016,
+          "tau_max": 0.0079,
+          "k_m_infra": 0.0201,
+          "k_t_age": 0.0319,
+          "k_cb_strain": 0.0024,
+          "shock_scale": 0.004
+        },
+        "S_Ti": {
+          "rho_c": 0.0712,
+          "c_max": 0.1359,
+          "gamma_C": 0.3145,
+          "gamma_E": 0.3202,
+          "gamma_D": 0.0163,
+          "gamma_O": 0.013,
+          "kappa_org": 0.0359,
+          "delta_ent": 0.0244,
+          "psi_trade": 0.0002,
+          "gamma_trade": 0.0002,
+          "epbt_base": 0.1486,
+          "lambda_learn": 0.1161,
+          "eta_rec": 0.0001,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.0594,
+          "k_m_infra": 0.0286,
+          "k_t_age": 0.1098,
+          "k_cb_strain": 0.0047,
+          "shock_scale": 0.0161
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0696,
+            0.0727
+          ],
+          "c_max": [
+            0.1336,
+            0.1382
+          ],
+          "gamma_C": [
+            0.3102,
+            0.3183
+          ],
+          "gamma_E": [
+            0.3158,
+            0.3245
+          ],
+          "gamma_D": [
+            0.0156,
+            0.017
+          ],
+          "gamma_O": [
+            0.0126,
+            0.0135
+          ],
+          "kappa_org": [
+            0.0347,
+            0.0371
+          ],
+          "delta_ent": [
+            0.0235,
+            0.0253
+          ],
+          "psi_trade": [
+            0.0002,
+            0.0002
+          ],
+          "gamma_trade": [
+            0.0002,
+            0.0003
+          ],
+          "epbt_base": [
+            0.1461,
+            0.1511
+          ],
+          "lambda_learn": [
+            0.1141,
+            0.1183
+          ],
+          "eta_rec": [
+            0.0001,
+            0.0001
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.0578,
+            0.0609
+          ],
+          "k_m_infra": [
+            0.0279,
+            0.0293
+          ],
+          "k_t_age": [
+            0.107,
+            0.1123
+          ],
+          "k_cb_strain": [
+            0.0043,
+            0.0051
+          ],
+          "shock_scale": [
+            0.0154,
+            0.0168
+          ]
+        }
+      },
+      "mineral_ratio_2050": {
+        "var_y": 0.077557,
+        "S_i": {
+          "rho_c": 0.0237,
+          "c_max": 0.0383,
+          "gamma_C": 0.0506,
+          "gamma_E": 0.1609,
+          "gamma_D": 0.0006,
+          "gamma_O": 0.0015,
+          "kappa_org": 0.0322,
+          "delta_ent": 0.015,
+          "psi_trade": -0.0,
+          "gamma_trade": 0.0001,
+          "epbt_base": 0.1487,
+          "lambda_learn": 0.1391,
+          "eta_rec": 0.1085,
+          "u_crit": -0.0,
+          "def_crit": -0.0,
+          "theta_rev": -0.0,
+          "pi_crit": -0.0,
+          "tau_max": 0.0603,
+          "k_m_infra": 0.005,
+          "k_t_age": 0.0421,
+          "k_cb_strain": 0.0005,
+          "shock_scale": 0.0008
+        },
+        "S_Ti": {
+          "rho_c": 0.0534,
+          "c_max": 0.0761,
+          "gamma_C": 0.0991,
+          "gamma_E": 0.2686,
+          "gamma_D": 0.0038,
+          "gamma_O": 0.0046,
+          "kappa_org": 0.0691,
+          "delta_ent": 0.0349,
+          "psi_trade": 0.0001,
+          "gamma_trade": 0.0001,
+          "epbt_base": 0.2564,
+          "lambda_learn": 0.2184,
+          "eta_rec": 0.1298,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.1075,
+          "k_m_infra": 0.0167,
+          "k_t_age": 0.0854,
+          "k_cb_strain": 0.002,
+          "shock_scale": 0.0105
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0521,
+            0.0547
+          ],
+          "c_max": [
+            0.0744,
+            0.0779
+          ],
+          "gamma_C": [
+            0.097,
+            0.1014
+          ],
+          "gamma_E": [
+            0.2638,
+            0.2734
+          ],
+          "gamma_D": [
+            0.0036,
+            0.004
+          ],
+          "gamma_O": [
+            0.0044,
+            0.0048
+          ],
+          "kappa_org": [
+            0.0676,
+            0.0707
+          ],
+          "delta_ent": [
+            0.034,
+            0.0359
+          ],
+          "psi_trade": [
+            0.0001,
+            0.0001
+          ],
+          "gamma_trade": [
+            0.0001,
+            0.0001
+          ],
+          "epbt_base": [
+            0.2518,
+            0.2607
+          ],
+          "lambda_learn": [
+            0.215,
+            0.2221
+          ],
+          "eta_rec": [
+            0.1279,
+            0.1317
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.1051,
+            0.1098
+          ],
+          "k_m_infra": [
+            0.0161,
+            0.0172
+          ],
+          "k_t_age": [
+            0.0835,
+            0.0874
+          ],
+          "k_cb_strain": [
+            0.0018,
+            0.0021
+          ],
+          "shock_scale": [
+            0.0101,
+            0.011
+          ]
+        }
+      }
+    },
+    "Importer_Mean": {
+      "years_alive": {
+        "var_y": 132.620143,
+        "S_i": {
+          "rho_c": 0.033,
+          "c_max": 0.0403,
+          "gamma_C": 0.0611,
+          "gamma_E": 0.2065,
+          "gamma_D": 0.0053,
+          "gamma_O": 0.001,
+          "kappa_org": 0.0325,
+          "delta_ent": 0.015,
+          "psi_trade": 0.0014,
+          "gamma_trade": 0.0019,
+          "epbt_base": 0.1823,
+          "lambda_learn": 0.1313,
+          "eta_rec": -0.0,
+          "u_crit": 0.0177,
+          "def_crit": 0.0025,
+          "theta_rev": 0.0002,
+          "pi_crit": 0.0002,
+          "tau_max": 0.0571,
+          "k_m_infra": 0.0085,
+          "k_t_age": 0.0263,
+          "k_cb_strain": 0.0005,
+          "shock_scale": 0.0063
+        },
+        "S_Ti": {
+          "rho_c": 0.0674,
+          "c_max": 0.0844,
+          "gamma_C": 0.1139,
+          "gamma_E": 0.2977,
+          "gamma_D": 0.0226,
+          "gamma_O": 0.0072,
+          "kappa_org": 0.0783,
+          "delta_ent": 0.0447,
+          "psi_trade": 0.0041,
+          "gamma_trade": 0.0042,
+          "epbt_base": 0.2801,
+          "lambda_learn": 0.2055,
+          "eta_rec": 0.0,
+          "u_crit": 0.029,
+          "def_crit": 0.0092,
+          "theta_rev": 0.001,
+          "pi_crit": 0.0002,
+          "tau_max": 0.1158,
+          "k_m_infra": 0.0223,
+          "k_t_age": 0.0961,
+          "k_cb_strain": 0.0037,
+          "shock_scale": 0.0278
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0658,
+            0.0689
+          ],
+          "c_max": [
+            0.0827,
+            0.0863
+          ],
+          "gamma_C": [
+            0.1117,
+            0.1162
+          ],
+          "gamma_E": [
+            0.293,
+            0.3024
+          ],
+          "gamma_D": [
+            0.0217,
+            0.0235
+          ],
+          "gamma_O": [
+            0.0069,
+            0.0075
+          ],
+          "kappa_org": [
+            0.0766,
+            0.0801
+          ],
+          "delta_ent": [
+            0.0435,
+            0.0459
+          ],
+          "psi_trade": [
+            0.0039,
+            0.0042
+          ],
+          "gamma_trade": [
+            0.004,
+            0.0043
+          ],
+          "epbt_base": [
+            0.2754,
+            0.2847
+          ],
+          "lambda_learn": [
+            0.202,
+            0.2089
+          ],
+          "eta_rec": [
+            0.0,
+            0.0
+          ],
+          "u_crit": [
+            0.0284,
+            0.0295
+          ],
+          "def_crit": [
+            0.009,
+            0.0093
+          ],
+          "theta_rev": [
+            0.0009,
+            0.0012
+          ],
+          "pi_crit": [
+            0.0002,
+            0.0002
+          ],
+          "tau_max": [
+            0.1136,
+            0.1182
+          ],
+          "k_m_infra": [
+            0.0218,
+            0.0228
+          ],
+          "k_t_age": [
+            0.0941,
+            0.0982
+          ],
+          "k_cb_strain": [
+            0.0035,
+            0.0038
+          ],
+          "shock_scale": [
+            0.0272,
+            0.0283
+          ]
+        }
+      },
+      "co2_cum_2050": {
+        "var_y": 31.797957,
+        "S_i": {
+          "rho_c": 0.0342,
+          "c_max": 0.0535,
+          "gamma_C": 0.0635,
+          "gamma_E": 0.1879,
+          "gamma_D": 0.0012,
+          "gamma_O": 0.0028,
+          "kappa_org": 0.0496,
+          "delta_ent": 0.0238,
+          "psi_trade": 0.0006,
+          "gamma_trade": 0.0005,
+          "epbt_base": 0.1551,
+          "lambda_learn": 0.1091,
+          "eta_rec": 0.0001,
+          "u_crit": 0.0001,
+          "def_crit": 0.0001,
+          "theta_rev": 0.0001,
+          "pi_crit": 0.0001,
+          "tau_max": 0.0912,
+          "k_m_infra": 0.0035,
+          "k_t_age": 0.0671,
+          "k_cb_strain": 0.0007,
+          "shock_scale": -0.001
+        },
+        "S_Ti": {
+          "rho_c": 0.064,
+          "c_max": 0.0945,
+          "gamma_C": 0.1122,
+          "gamma_E": 0.278,
+          "gamma_D": 0.0053,
+          "gamma_O": 0.0063,
+          "kappa_org": 0.0865,
+          "delta_ent": 0.0476,
+          "psi_trade": 0.0014,
+          "gamma_trade": 0.0013,
+          "epbt_base": 0.2483,
+          "lambda_learn": 0.179,
+          "eta_rec": 0.0,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.1443,
+          "k_m_infra": 0.012,
+          "k_t_age": 0.1212,
+          "k_cb_strain": 0.0019,
+          "shock_scale": 0.0091
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0627,
+            0.0654
+          ],
+          "c_max": [
+            0.0927,
+            0.0965
+          ],
+          "gamma_C": [
+            0.11,
+            0.1145
+          ],
+          "gamma_E": [
+            0.2741,
+            0.2824
+          ],
+          "gamma_D": [
+            0.005,
+            0.0055
+          ],
+          "gamma_O": [
+            0.0061,
+            0.0065
+          ],
+          "kappa_org": [
+            0.0849,
+            0.0882
+          ],
+          "delta_ent": [
+            0.0466,
+            0.0487
+          ],
+          "psi_trade": [
+            0.0013,
+            0.0014
+          ],
+          "gamma_trade": [
+            0.0013,
+            0.0014
+          ],
+          "epbt_base": [
+            0.2446,
+            0.2524
+          ],
+          "lambda_learn": [
+            0.1762,
+            0.1824
+          ],
+          "eta_rec": [
+            0.0,
+            0.0
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.142,
+            0.147
+          ],
+          "k_m_infra": [
+            0.0116,
+            0.0124
+          ],
+          "k_t_age": [
+            0.1191,
+            0.1235
+          ],
+          "k_cb_strain": [
+            0.0018,
+            0.0019
+          ],
+          "shock_scale": [
+            0.0088,
+            0.0095
+          ]
+        }
+      },
+      "g_tot_2050": {
+        "var_y": 0.002375,
+        "S_i": {
+          "rho_c": 0.0369,
+          "c_max": 0.0877,
+          "gamma_C": 0.2787,
+          "gamma_E": 0.2492,
+          "gamma_D": 0.0057,
+          "gamma_O": 0.0044,
+          "kappa_org": 0.0032,
+          "delta_ent": 0.0036,
+          "psi_trade": 0.0019,
+          "gamma_trade": 0.0024,
+          "epbt_base": 0.0732,
+          "lambda_learn": 0.055,
+          "eta_rec": 0.0016,
+          "u_crit": 0.0016,
+          "def_crit": 0.0016,
+          "theta_rev": 0.0016,
+          "pi_crit": 0.0016,
+          "tau_max": 0.0151,
+          "k_m_infra": 0.022,
+          "k_t_age": 0.018,
+          "k_cb_strain": 0.0031,
+          "shock_scale": 0.0033
+        },
+        "S_Ti": {
+          "rho_c": 0.07,
+          "c_max": 0.1412,
+          "gamma_C": 0.3374,
+          "gamma_E": 0.3217,
+          "gamma_D": 0.0176,
+          "gamma_O": 0.0153,
+          "kappa_org": 0.0401,
+          "delta_ent": 0.0275,
+          "psi_trade": 0.0015,
+          "gamma_trade": 0.0016,
+          "epbt_base": 0.1422,
+          "lambda_learn": 0.1115,
+          "eta_rec": 0.0001,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.0766,
+          "k_m_infra": 0.0271,
+          "k_t_age": 0.0885,
+          "k_cb_strain": 0.0034,
+          "shock_scale": 0.0129
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0685,
+            0.0714
+          ],
+          "c_max": [
+            0.139,
+            0.1434
+          ],
+          "gamma_C": [
+            0.333,
+            0.3414
+          ],
+          "gamma_E": [
+            0.3175,
+            0.326
+          ],
+          "gamma_D": [
+            0.017,
+            0.0182
+          ],
+          "gamma_O": [
+            0.0148,
+            0.0158
+          ],
+          "kappa_org": [
+            0.0388,
+            0.0414
+          ],
+          "delta_ent": [
+            0.0266,
+            0.0285
+          ],
+          "psi_trade": [
+            0.0014,
+            0.0016
+          ],
+          "gamma_trade": [
+            0.0015,
+            0.0018
+          ],
+          "epbt_base": [
+            0.1401,
+            0.1444
+          ],
+          "lambda_learn": [
+            0.1096,
+            0.1133
+          ],
+          "eta_rec": [
+            0.0001,
+            0.0001
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.0746,
+            0.0787
+          ],
+          "k_m_infra": [
+            0.0265,
+            0.0277
+          ],
+          "k_t_age": [
+            0.0861,
+            0.0907
+          ],
+          "k_cb_strain": [
+            0.0031,
+            0.0037
+          ],
+          "shock_scale": [
+            0.0123,
+            0.0135
+          ]
+        }
+      },
+      "mineral_ratio_2050": {
+        "var_y": 0.075648,
+        "S_i": {
+          "rho_c": 0.0259,
+          "c_max": 0.0435,
+          "gamma_C": 0.0519,
+          "gamma_E": 0.1541,
+          "gamma_D": 0.0009,
+          "gamma_O": 0.0021,
+          "kappa_org": 0.0364,
+          "delta_ent": 0.0179,
+          "psi_trade": 0.0006,
+          "gamma_trade": 0.0006,
+          "epbt_base": 0.1346,
+          "lambda_learn": 0.1292,
+          "eta_rec": 0.1075,
+          "u_crit": -0.0002,
+          "def_crit": -0.0002,
+          "theta_rev": -0.0002,
+          "pi_crit": -0.0002,
+          "tau_max": 0.072,
+          "k_m_infra": 0.0031,
+          "k_t_age": 0.0523,
+          "k_cb_strain": 0.0004,
+          "shock_scale": -0.0001
+        },
+        "S_Ti": {
+          "rho_c": 0.0541,
+          "c_max": 0.0802,
+          "gamma_C": 0.0969,
+          "gamma_E": 0.2509,
+          "gamma_D": 0.0047,
+          "gamma_O": 0.0054,
+          "kappa_org": 0.0734,
+          "delta_ent": 0.0398,
+          "psi_trade": 0.0013,
+          "gamma_trade": 0.0012,
+          "epbt_base": 0.2341,
+          "lambda_learn": 0.1975,
+          "eta_rec": 0.1297,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.1216,
+          "k_m_infra": 0.0106,
+          "k_t_age": 0.1022,
+          "k_cb_strain": 0.0018,
+          "shock_scale": 0.0084
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0528,
+            0.0554
+          ],
+          "c_max": [
+            0.0785,
+            0.0821
+          ],
+          "gamma_C": [
+            0.0948,
+            0.0992
+          ],
+          "gamma_E": [
+            0.2464,
+            0.2555
+          ],
+          "gamma_D": [
+            0.0044,
+            0.005
+          ],
+          "gamma_O": [
+            0.0052,
+            0.0056
+          ],
+          "kappa_org": [
+            0.0718,
+            0.0752
+          ],
+          "delta_ent": [
+            0.0388,
+            0.0408
+          ],
+          "psi_trade": [
+            0.0012,
+            0.0014
+          ],
+          "gamma_trade": [
+            0.0011,
+            0.0013
+          ],
+          "epbt_base": [
+            0.2298,
+            0.2382
+          ],
+          "lambda_learn": [
+            0.1942,
+            0.201
+          ],
+          "eta_rec": [
+            0.1277,
+            0.1315
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.1189,
+            0.124
+          ],
+          "k_m_infra": [
+            0.0102,
+            0.011
+          ],
+          "k_t_age": [
+            0.1,
+            0.1044
+          ],
+          "k_cb_strain": [
+            0.0017,
+            0.0019
+          ],
+          "shock_scale": [
+            0.008,
+            0.0088
+          ]
+        }
+      }
+    },
+    "Exporter_Mean": {
+      "years_alive": {
+        "var_y": 97.107765,
+        "S_i": {
+          "rho_c": 0.0214,
+          "c_max": 0.0366,
+          "gamma_C": 0.0569,
+          "gamma_E": 0.2001,
+          "gamma_D": 0.0028,
+          "gamma_O": 0.0004,
+          "kappa_org": 0.0298,
+          "delta_ent": 0.0105,
+          "psi_trade": -0.0012,
+          "gamma_trade": -0.0012,
+          "epbt_base": 0.1835,
+          "lambda_learn": 0.1266,
+          "eta_rec": -0.0013,
+          "u_crit": 0.009,
+          "def_crit": 0.0033,
+          "theta_rev": -0.001,
+          "pi_crit": -0.001,
+          "tau_max": 0.0405,
+          "k_m_infra": 0.0159,
+          "k_t_age": 0.0177,
+          "k_cb_strain": -0.0002,
+          "shock_scale": 0.0058
+        },
+        "S_Ti": {
+          "rho_c": 0.0715,
+          "c_max": 0.1038,
+          "gamma_C": 0.1406,
+          "gamma_E": 0.3551,
+          "gamma_D": 0.0175,
+          "gamma_O": 0.0062,
+          "kappa_org": 0.0798,
+          "delta_ent": 0.0423,
+          "psi_trade": 0.0006,
+          "gamma_trade": 0.0006,
+          "epbt_base": 0.3338,
+          "lambda_learn": 0.2523,
+          "eta_rec": 0.0,
+          "u_crit": 0.0207,
+          "def_crit": 0.0125,
+          "theta_rev": 0.001,
+          "pi_crit": 0.0002,
+          "tau_max": 0.1097,
+          "k_m_infra": 0.0529,
+          "k_t_age": 0.0766,
+          "k_cb_strain": 0.0043,
+          "shock_scale": 0.0407
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0697,
+            0.0734
+          ],
+          "c_max": [
+            0.1014,
+            0.106
+          ],
+          "gamma_C": [
+            0.1378,
+            0.1433
+          ],
+          "gamma_E": [
+            0.3495,
+            0.3608
+          ],
+          "gamma_D": [
+            0.0168,
+            0.0183
+          ],
+          "gamma_O": [
+            0.006,
+            0.0064
+          ],
+          "kappa_org": [
+            0.0778,
+            0.0816
+          ],
+          "delta_ent": [
+            0.0412,
+            0.0434
+          ],
+          "psi_trade": [
+            0.0006,
+            0.0006
+          ],
+          "gamma_trade": [
+            0.0006,
+            0.0006
+          ],
+          "epbt_base": [
+            0.3285,
+            0.339
+          ],
+          "lambda_learn": [
+            0.2482,
+            0.2565
+          ],
+          "eta_rec": [
+            0.0,
+            0.0
+          ],
+          "u_crit": [
+            0.0203,
+            0.0212
+          ],
+          "def_crit": [
+            0.0123,
+            0.0128
+          ],
+          "theta_rev": [
+            0.0009,
+            0.0011
+          ],
+          "pi_crit": [
+            0.0002,
+            0.0002
+          ],
+          "tau_max": [
+            0.1074,
+            0.1121
+          ],
+          "k_m_infra": [
+            0.0515,
+            0.0541
+          ],
+          "k_t_age": [
+            0.0748,
+            0.0785
+          ],
+          "k_cb_strain": [
+            0.0041,
+            0.0044
+          ],
+          "shock_scale": [
+            0.0399,
+            0.0416
+          ]
+        }
+      },
+      "co2_cum_2050": {
+        "var_y": 147.202384,
+        "S_i": {
+          "rho_c": 0.0266,
+          "c_max": 0.0447,
+          "gamma_C": 0.064,
+          "gamma_E": 0.2092,
+          "gamma_D": 0.0002,
+          "gamma_O": 0.0018,
+          "kappa_org": 0.039,
+          "delta_ent": 0.0154,
+          "psi_trade": -0.0,
+          "gamma_trade": 0.0001,
+          "epbt_base": 0.1929,
+          "lambda_learn": 0.1346,
+          "eta_rec": -0.0001,
+          "u_crit": -0.0001,
+          "def_crit": -0.0001,
+          "theta_rev": -0.0001,
+          "pi_crit": -0.0001,
+          "tau_max": 0.0584,
+          "k_m_infra": 0.0118,
+          "k_t_age": 0.0361,
+          "k_cb_strain": 0.0003,
+          "shock_scale": 0.0029
+        },
+        "S_Ti": {
+          "rho_c": 0.062,
+          "c_max": 0.0919,
+          "gamma_C": 0.1235,
+          "gamma_E": 0.3233,
+          "gamma_D": 0.0029,
+          "gamma_O": 0.0043,
+          "kappa_org": 0.0749,
+          "delta_ent": 0.0361,
+          "psi_trade": 0.0002,
+          "gamma_trade": 0.0003,
+          "epbt_base": 0.3045,
+          "lambda_learn": 0.2262,
+          "eta_rec": 0.0,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.1089,
+          "k_m_infra": 0.0339,
+          "k_t_age": 0.073,
+          "k_cb_strain": 0.0018,
+          "shock_scale": 0.021
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0606,
+            0.0633
+          ],
+          "c_max": [
+            0.0901,
+            0.0939
+          ],
+          "gamma_C": [
+            0.1211,
+            0.1258
+          ],
+          "gamma_E": [
+            0.3188,
+            0.3279
+          ],
+          "gamma_D": [
+            0.0028,
+            0.0031
+          ],
+          "gamma_O": [
+            0.0042,
+            0.0045
+          ],
+          "kappa_org": [
+            0.0734,
+            0.0765
+          ],
+          "delta_ent": [
+            0.0352,
+            0.037
+          ],
+          "psi_trade": [
+            0.0002,
+            0.0002
+          ],
+          "gamma_trade": [
+            0.0003,
+            0.0003
+          ],
+          "epbt_base": [
+            0.3002,
+            0.3091
+          ],
+          "lambda_learn": [
+            0.2226,
+            0.2302
+          ],
+          "eta_rec": [
+            0.0,
+            0.0
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.1069,
+            0.1109
+          ],
+          "k_m_infra": [
+            0.0331,
+            0.0348
+          ],
+          "k_t_age": [
+            0.0715,
+            0.0746
+          ],
+          "k_cb_strain": [
+            0.0018,
+            0.0019
+          ],
+          "shock_scale": [
+            0.0204,
+            0.0216
+          ]
+        }
+      },
+      "g_tot_2050": {
+        "var_y": 0.004215,
+        "S_i": {
+          "rho_c": 0.0395,
+          "c_max": 0.0823,
+          "gamma_C": 0.2177,
+          "gamma_E": 0.264,
+          "gamma_D": 0.0029,
+          "gamma_O": 0.0019,
+          "kappa_org": 0.0031,
+          "delta_ent": 0.0028,
+          "psi_trade": 0.0008,
+          "gamma_trade": 0.0008,
+          "epbt_base": 0.1179,
+          "lambda_learn": 0.0857,
+          "eta_rec": 0.0008,
+          "u_crit": 0.0007,
+          "def_crit": 0.0007,
+          "theta_rev": 0.0007,
+          "pi_crit": 0.0007,
+          "tau_max": 0.0012,
+          "k_m_infra": 0.0118,
+          "k_t_age": 0.051,
+          "k_cb_strain": 0.0012,
+          "shock_scale": 0.0032
+        },
+        "S_Ti": {
+          "rho_c": 0.0738,
+          "c_max": 0.1282,
+          "gamma_C": 0.2678,
+          "gamma_E": 0.3254,
+          "gamma_D": 0.0117,
+          "gamma_O": 0.0096,
+          "kappa_org": 0.0376,
+          "delta_ent": 0.0232,
+          "psi_trade": 0.0005,
+          "gamma_trade": 0.0005,
+          "epbt_base": 0.1744,
+          "lambda_learn": 0.1376,
+          "eta_rec": 0.0001,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.0424,
+          "k_m_infra": 0.0273,
+          "k_t_age": 0.1223,
+          "k_cb_strain": 0.0071,
+          "shock_scale": 0.0198
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0719,
+            0.0757
+          ],
+          "c_max": [
+            0.1258,
+            0.1306
+          ],
+          "gamma_C": [
+            0.264,
+            0.2717
+          ],
+          "gamma_E": [
+            0.3207,
+            0.33
+          ],
+          "gamma_D": [
+            0.011,
+            0.0123
+          ],
+          "gamma_O": [
+            0.0093,
+            0.0099
+          ],
+          "kappa_org": [
+            0.0363,
+            0.0389
+          ],
+          "delta_ent": [
+            0.0224,
+            0.0242
+          ],
+          "psi_trade": [
+            0.0004,
+            0.0005
+          ],
+          "gamma_trade": [
+            0.0004,
+            0.0005
+          ],
+          "epbt_base": [
+            0.1713,
+            0.1773
+          ],
+          "lambda_learn": [
+            0.135,
+            0.1401
+          ],
+          "eta_rec": [
+            0.0001,
+            0.0001
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.0412,
+            0.0436
+          ],
+          "k_m_infra": [
+            0.0266,
+            0.0279
+          ],
+          "k_t_age": [
+            0.12,
+            0.1247
+          ],
+          "k_cb_strain": [
+            0.0067,
+            0.0077
+          ],
+          "shock_scale": [
+            0.019,
+            0.0205
+          ]
+        }
+      },
+      "mineral_ratio_2050": {
+        "var_y": 0.087279,
+        "S_i": {
+          "rho_c": 0.023,
+          "c_max": 0.0366,
+          "gamma_C": 0.0542,
+          "gamma_E": 0.1707,
+          "gamma_D": 0.0031,
+          "gamma_O": 0.0038,
+          "kappa_org": 0.0302,
+          "delta_ent": 0.015,
+          "psi_trade": 0.0028,
+          "gamma_trade": 0.0027,
+          "epbt_base": 0.165,
+          "lambda_learn": 0.1517,
+          "eta_rec": 0.1061,
+          "u_crit": 0.0027,
+          "def_crit": 0.0027,
+          "theta_rev": 0.0027,
+          "pi_crit": 0.0027,
+          "tau_max": 0.0468,
+          "k_m_infra": 0.0115,
+          "k_t_age": 0.03,
+          "k_cb_strain": 0.0027,
+          "shock_scale": 0.0052
+        },
+        "S_Ti": {
+          "rho_c": 0.0528,
+          "c_max": 0.0773,
+          "gamma_C": 0.1069,
+          "gamma_E": 0.2891,
+          "gamma_D": 0.0025,
+          "gamma_O": 0.0037,
+          "kappa_org": 0.0632,
+          "delta_ent": 0.0298,
+          "psi_trade": 0.0002,
+          "gamma_trade": 0.0003,
+          "epbt_base": 0.2797,
+          "lambda_learn": 0.2454,
+          "eta_rec": 0.123,
+          "u_crit": 0.0,
+          "def_crit": 0.0,
+          "theta_rev": 0.0,
+          "pi_crit": 0.0,
+          "tau_max": 0.0912,
+          "k_m_infra": 0.0295,
+          "k_t_age": 0.0614,
+          "k_cb_strain": 0.0018,
+          "shock_scale": 0.0194
+        },
+        "S_Ti_ci95": {
+          "rho_c": [
+            0.0513,
+            0.0541
+          ],
+          "c_max": [
+            0.0754,
+            0.0791
+          ],
+          "gamma_C": [
+            0.1047,
+            0.1093
+          ],
+          "gamma_E": [
+            0.2838,
+            0.2941
+          ],
+          "gamma_D": [
+            0.0024,
+            0.0027
+          ],
+          "gamma_O": [
+            0.0036,
+            0.0039
+          ],
+          "kappa_org": [
+            0.0618,
+            0.0647
+          ],
+          "delta_ent": [
+            0.029,
+            0.0307
+          ],
+          "psi_trade": [
+            0.0002,
+            0.0002
+          ],
+          "gamma_trade": [
+            0.0002,
+            0.0003
+          ],
+          "epbt_base": [
+            0.2751,
+            0.2845
+          ],
+          "lambda_learn": [
+            0.2417,
+            0.2494
+          ],
+          "eta_rec": [
+            0.1213,
+            0.1248
+          ],
+          "u_crit": [
+            0.0,
+            0.0
+          ],
+          "def_crit": [
+            0.0,
+            0.0
+          ],
+          "theta_rev": [
+            0.0,
+            0.0
+          ],
+          "pi_crit": [
+            0.0,
+            0.0
+          ],
+          "tau_max": [
+            0.0892,
+            0.0932
+          ],
+          "k_m_infra": [
+            0.0286,
+            0.0303
+          ],
+          "k_t_age": [
+            0.06,
+            0.0628
+          ],
+          "k_cb_strain": [
+            0.0017,
+            0.0019
+          ],
+          "shock_scale": [
+            0.0188,
+            0.0202
+          ]
+        }
+      }
+    }
+  }
+}
